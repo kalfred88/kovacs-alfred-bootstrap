@@ -1,5 +1,27 @@
 .navbar {
     background-color: transparent;
+    border: 0;
+}
+
+.navbar * {
+    font-family: 'Catamaran', sans-serif;
+}
+
+h1,
+h5 {
+    font-family: 'Muli', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar a:hover {
+    color: #ff0;
+}
+
+.middle {
+    vertical-align: middle;
 }
 
 .section-phone {
@@ -21,14 +43,17 @@
 
 .section-download {
     background-color: #FEC63B;
+    padding: 15vh;
 }
 
 .section-download img {
     width: 250px;
+    padding: 15vh;
 }
 
 .section-unlimited {
     background-color: white;
+    padding: 15vh;
 }
 
 .section-unlimited img {
@@ -46,6 +71,7 @@
     padding: 50vh;
     position: relative;
     overflow: hidden;
+    padding: 30vh;
 }
 
 .section-start::after {
@@ -65,4 +91,13 @@
 
 .section-start h1 {
     color: #fff;
+}
+
+.facebook {
+    width: 15vh;
+    height: 15vh;
+    background-color: #3B5999;
+    color: #fff;
+    font-size: 10vh;
+    border-radius: 50%;
 }
