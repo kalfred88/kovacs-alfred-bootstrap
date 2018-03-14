@@ -1,0 +1,68 @@
+.navbar {
+    background-color: transparent;
+}
+
+.section-phone {
+    background: linear-gradient(to right, #DA2431, #7D4396);
+    /*background-image: url("/kovacs-alfred-bootstrap/img/bg-pattern.png");*/
+    padding: 15vh;
+    margin: auto;
+}
+
+.section-phone img {
+    height: 80vh;
+}
+
+.section-phone p {
+    font-family: 'Muli', sans-serif;
+    font-size: 5vh;
+    color: #fff;
+}
+
+.section-download {
+    background-color: #FEC63B;
+}
+
+.section-download img {
+    width: 250px;
+}
+
+.section-unlimited {
+    background-color: white;
+}
+
+.section-unlimited img {
+    height: 80vh;
+}
+
+.icon {
+    color: #000;
+    font-size: 10vh;
+}
+
+.section-start {
+    background-image: url("/kovacs-alfred-bootstrap/img/bg-cta.jpg");
+    background-position: center center;
+    padding: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-start::after {
+    content: "";
+    display: table;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section-start * {
+    z-index: 10;
+}
+
+.section-start h1 {
+    color: #fff;
+}
